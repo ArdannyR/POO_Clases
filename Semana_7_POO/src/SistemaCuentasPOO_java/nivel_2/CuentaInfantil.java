@@ -1,4 +1,7 @@
-package SistemaCuentasPOO_java;
+package SistemaCuentasPOO_java.nivel_2;
+
+import SistemaCuentasPOO_java.nivel_1.Cliente;
+import SistemaCuentasPOO_java.nivel_1.Cuenta;
 
 public class CuentaInfantil extends Cuenta {
     public CuentaInfantil(String numeroCuenta, Cliente titular) {

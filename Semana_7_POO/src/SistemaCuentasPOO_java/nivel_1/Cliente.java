@@ -1,4 +1,4 @@
-package SistemaCuentasPOO_java;
+package SistemaCuentasPOO_java.nivel_1;
 
 public class Cliente {
     private String nombre;

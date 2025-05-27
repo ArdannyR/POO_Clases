@@ -1,4 +1,7 @@
-package SistemaCuentasPOO_java;
+package SistemaCuentasPOO_java.nivel_2;
+
+import SistemaCuentasPOO_java.nivel_1.Cliente;
+import SistemaCuentasPOO_java.nivel_1.Cuenta;
 
 public class CuentaAhorro extends Cuenta {
     private double tasaInteres;
@@ -9,6 +12,6 @@ public class CuentaAhorro extends Cuenta {
     }
 
     public void aplicarIntereses() {
-        saldo += saldo * tasaInteres;
+        setSaldo(getSaldo() + (getSaldo() * tasaInteres));
     }
 }
