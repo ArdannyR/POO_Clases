@@ -1,4 +1,17 @@
-package Nivel_1;
+package Ejercicio.Nivel_1;
+
+import Ejercicio.Nivel_2.Administrador; //
+import Ejercicio.Nivel_2.Bolso; //
+import Ejercicio.Nivel_2.Cajero; //
+import Ejercicio.Nivel_2.Gerente; //
+import Ejercicio.Nivel_2.Lonchera; //
+import Ejercicio.Nivel_2.MaletaViaje; //
+import Ejercicio.Nivel_2.Mochila; //
+import Ejercicio.Nivel_2.PersonalLimpieza; //
+import Ejercicio.Nivel_2.Vendedor; //
+
+import java.util.Scanner;
+import java.util.ArrayList;
 
 public class SistemaMaletas {
     static ArrayList<Producto> productos = new ArrayList<>();

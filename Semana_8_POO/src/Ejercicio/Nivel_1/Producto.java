@@ -1,6 +1,6 @@
-package Nivel_1;
+package Ejercicio.Nivel_1;
 
-class Producto {
+public class Producto { //Cambio a public
     private String codigo;
     private String descripcion;
     private String ubicacion;

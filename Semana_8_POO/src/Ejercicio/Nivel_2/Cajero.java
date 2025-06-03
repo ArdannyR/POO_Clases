@@ -1,6 +1,9 @@
-package Nivel_2;
+package Ejercicio.Nivel_2;
 
-class Cajero extends Empleado {
+import Ejercicio.Nivel_1.Empleado;
+import Ejercicio.Nivel_1.Producto;
+
+public class Cajero extends Empleado {
     public Cajero(String nombre, String id) {
         super(nombre, id, "Cajero");
     }

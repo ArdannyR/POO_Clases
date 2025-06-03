@@ -1,8 +1,8 @@
-package Nivel_1;
+package Ejercicio.Nivel_2;
 
-import java.util.Empleado;
+import Ejercicio.Nivel_1.Empleado;
 
-class Administrador extends Empleado {
+public class Administrador extends Empleado {
     public Administrador(String nombre, String id) {
         super(nombre, id, "Administrador");
     }

@@ -1,6 +1,6 @@
-package Nivel_1;
+package Ejercicio.Nivel_1;
 
-abstract class Empleado {
+public abstract class Empleado { //cambio a public
     protected String nombre;
     protected String id;
     protected String rol;
