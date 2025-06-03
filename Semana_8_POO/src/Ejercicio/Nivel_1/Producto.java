@@ -23,6 +23,19 @@ public class Producto { //Cambio a public
         return codigo;
     }
 
+    public int getStock() {
+        return stock;
+    }
+
+    public void setStock(int stock) {
+        this.stock = stock;
+    }
+
+    // New method
+    public String getDescripcion() { //
+        return descripcion; //
+    } //
+
     public void mostrarDetalle() {
         System.out.println("\nCódigo: " + codigo);
         System.out.println("Descripción: " + descripcion);
