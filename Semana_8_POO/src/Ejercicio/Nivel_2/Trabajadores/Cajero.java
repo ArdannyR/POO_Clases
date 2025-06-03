@@ -1,7 +1,9 @@
-package Ejercicio.Nivel_2;
+package Ejercicio.Nivel_2.Trabajadores;
 
 import Ejercicio.Nivel_1.Empleado;
 import Ejercicio.Nivel_1.Producto;
+import Ejercicio.Nivel_2.Productos.MaletaViaje;
+import Ejercicio.Nivel_2.Productos.Mochila;
 
 public class Cajero extends Empleado {
     public Cajero(String nombre, String id) {

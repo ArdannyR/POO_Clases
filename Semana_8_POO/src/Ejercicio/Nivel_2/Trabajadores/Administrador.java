@@ -1,4 +1,4 @@
-package Ejercicio.Nivel_2;
+package Ejercicio.Nivel_2.Trabajadores;
 
 import Ejercicio.Nivel_1.Empleado;
 

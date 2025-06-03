@@ -1,4 +1,4 @@
-package Ejercicio.Nivel_2;
+package Ejercicio.Nivel_2.Productos;
 
 import Ejercicio.Nivel_1.Producto;
 
